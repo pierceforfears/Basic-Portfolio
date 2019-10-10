@@ -42,7 +42,7 @@ body {
     margin: 0 auto;
     color: #777777;
     background-color: #ffffff;
-    background-image: url("assets/images/light_honeycomb.png");
+    background-image: url("../images/light_honeycomb.png");
     background-repeat: repeat; 
 }
 
@@ -59,6 +59,7 @@ div .content {
     background-color: #ffffff;
     border-color: #dddddd;
     padding: 20px;
+    min-height: 700px;
 }
 
 img {
@@ -100,6 +101,11 @@ input {
      height: 30px;
  }
 
+ .text-field {
+     padding: 0 0 70px 0;
+     width: 100%;
+ }
+
 /* Portfolio Styling     */
 .image {
     float: left;
@@ -107,7 +113,7 @@ input {
     margin: 10px;
 }
 
-.portfolio {
+.wrapper .photography {
     position: absolute;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -116,14 +122,56 @@ input {
     top: 300px;
     left: 228px;
     width: 300px;
+    line-height: 30px;
 }
-/*
-.image {
-    margin: 0;
-    padding: 0;
-    }
-    
-    */
+
+.wrapper .rpg {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    top: 300px;
+    left: 548px;
+    width: 300px;
+    line-height: 30px;
+}
+
+.wrapper .trivia {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    top: 480px;
+    left: 228px;
+    width: 300px;
+    line-height: 30px;
+}
+
+.wrapper .rutgers {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    top: 480px;
+    left: 548px;
+    width: 300px;
+    line-height: 30px;
+}
+
+.wrapper .rock {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    top: 650px;
+    left: 228px;
+    width: 300px;
+    line-height: 30px;
+}
 
 
 
