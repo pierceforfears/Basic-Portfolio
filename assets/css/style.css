@@ -27,7 +27,7 @@ header {
     font-weight: bold;
     position: fixed;
     top: 0;
-    left: 20%;
+    left: 15%;
 }
 
 ul {
@@ -123,17 +123,17 @@ input {
  }
 
  .text-field {
-     padding: 0 0 75px 0;
+     padding: 0 0 75px;
      width: 100%;
  }
 
 /* Portfolio Styling     */
-.image {
+/* .image {
     float: left;
     width: 400px;
     margin: 10px;
     border-radius: 4px;
-}
+} */
 
 .wrapper {
     position: static;
@@ -152,27 +152,22 @@ input {
     display: inline-block;    
 }
 
-.photography {
-    top: 170px;
-    left: -410px;
+.box {
+    float: left;
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    border-radius: 4px;
+    left: 0;
 }
 
-.rpg {
+.label {
     top: -50px;
-    left: 10px;
-}
-
-.trivia {
-    top: 140px;
-    left: -410px;
-}
- 
-.rutgers {
-    top: -50px;
-    left: 10px;
-}
-
-.rock {
-    top: 140px;
-    left: -410px;
+    left: 0;
 } 
+
+.image {
+    border-radius: 4px;
+    box-shadow: 0 5px 5px #777777;
+}
+
