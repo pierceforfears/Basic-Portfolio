@@ -87,6 +87,7 @@ h2 {
     width: 200px;
     margin: 0 10px auto auto;
     border-radius: 4px;
+    box-shadow: 0 2px 5px #777777;
 }
 
 footer {
@@ -111,9 +112,10 @@ form {
 }
 
 input {
-    width: 100%;
+    width: 98%;
     padding: 5px 5px;
     margin: 10px 0;
+    float: left;
 }
  .submit {
      color: #ffffff;
@@ -123,10 +125,14 @@ input {
  }
 
  .text-field {
-     padding: 0 0 75px;
-     width: 100%;
-     resize: both;
+     padding: 0 5px 75px;
+     width: 98%;
      overflow: scroll;
+     resize: both;
+ }
+
+ form {
+     overflow: hidden;
  }
 
 /* Portfolio Styling     */
