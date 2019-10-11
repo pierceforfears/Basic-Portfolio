@@ -109,6 +109,7 @@ footer {
 /* Contact Form Styling */
 form {
     margin: 10px;
+    overflow: hidden;
 }
 
 input {
@@ -116,6 +117,7 @@ input {
     padding: 5px 5px;
     margin: 10px 0;
     float: left;
+    border: 1px solid #777777;
 }
  .submit {
      color: #ffffff;
@@ -124,21 +126,17 @@ input {
      height: 30px;
  }
 
- .text-field {
+textarea {
      padding: 0 5px 75px;
      width: 98%;
      overflow: scroll;
      resize: both;
  }
 
- form {
-     overflow: hidden;
- }
-
 /* Portfolio Styling     */
 .wrapper {
     position: static;
-    min-height: 740px;
+    overflow: hidden;
 }
 
 .wrapper p {
