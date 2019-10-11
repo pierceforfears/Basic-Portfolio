@@ -125,16 +125,11 @@ input {
  .text-field {
      padding: 0 0 75px;
      width: 100%;
+     resize: both;
+     overflow: scroll;
  }
 
 /* Portfolio Styling     */
-/* .image {
-    float: left;
-    width: 400px;
-    margin: 10px;
-    border-radius: 4px;
-} */
-
 .wrapper {
     position: static;
     min-height: 740px;
